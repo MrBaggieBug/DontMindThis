@@ -6,16 +6,16 @@ client.on('ready', () => {
 });
 
 const options = [
-  'Tails',
+  'Tail',
 
-  'Heads',
+  'Head',
 
 ];
 
 client.on('interactionCreate', async (interaction) => {
   if (!interaction.isCommand()) return;
 
-  if (interaction.commandName === 'randomice') {
+  if (interaction.commandName === 'CoinFlip') {
     await interaction.reply(
       options[Math.floor(Math.random() * options.length)]
     );
