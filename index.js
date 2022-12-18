@@ -6,10 +6,10 @@ client.on('ready', () => {
 });
 
 const options = [
-  '🐭',
-  'https://media.giphy.com/media/wJZTbXayokOgbCfyQe/giphy.gif',
-  'https://media.giphy.com/media/QXh9XnIJetPi0/giphy.gif',
-  '🐁',
+  'Tails',
+
+  'Heads',
+
 ];
 
 client.on('interactionCreate', async (interaction) => {
